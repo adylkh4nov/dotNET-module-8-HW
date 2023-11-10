@@ -109,7 +109,6 @@ class Comunalka
 
         double total = amount - discount;
 
-        // Используем PadRight для выравнивания строк
         Console.WriteLine($"{paymentType,-15}\t{amount,-15}\t{discount,-15}\t{total,-15}");
 
         return total;
